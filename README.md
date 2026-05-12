@@ -1,5 +1,5 @@
 # ESP32-Retro-Arcade
-ESP32 Retro Arcade – A handheld console with Car Dodge, Snake, and Pong games on a 128×64 OLED, controlled by an analog joystick. Features persistent high scores, sound effects, triple-click exit, and deep sleep power‑off. Built with Arduino, U8g2, and ESP32 NVS.
+ESP32 Retro Arcade (prototype) – A handheld console with Car Dodge, Snake, and Pong games on a 128×64 OLED, controlled by an analog joystick. Features persistent high scores, sound effects, triple-click exit, and deep sleep power‑off. Built with Arduino, U8g2, and ESP32 NVS.
 
 <div align="center">
   <h1>🎮 ESP32 Retro Arcade</h1>
