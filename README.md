@@ -123,12 +123,11 @@ Click the **Upload** button. After a few seconds, the splash screen should appea
 
 ---
 
-## 🛠 Customisation
-
+🛠 Customisation
 All game parameters and pin definitions are clearly marked at the top of the sketch.
 
-### Change pin assignments
-```cpp
+Change pin assignments
+cpp
 #define PIN_JOY_X      34
 #define PIN_JOY_Y      35
 #define PIN_JOY_BTN    32
@@ -159,7 +158,4 @@ Buzzer silent	For passive buzzers, ensure tone() is used. For active buzzers, th
 USB‑C cable doesn’t power	Your board may be missing the 5.1kΩ pull‑down resistors on CC1/CC2 – required for C‑to‑C cables.
 Triple‑click doesn’t exit	Press the button three times within 800 ms (increase TC_WINDOW_MS if needed).
 Compilation error ledcSetup not declared	Board not set to ESP32 – go to Tools → Board and select an ESP32 variant.
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-<div align="center"> <sub>Built with ❤️ for retro gaming on the ESP32. <br> Contributions and bug reports are welcome!</sub> </div> ```
+<div align="center"> <sub>Built with ❤️ for retro gaming on the ESP32. <br> Contributions and bug reports are welcome!</sub> </div>
